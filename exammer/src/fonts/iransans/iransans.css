@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'iransans';
+    font-weight: 200;
+    src: url('iransans_ultralight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iransans';
+    font-weight: normal;
+    src: url('iransans_ultralight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iransans';
+    font-weight: 500;
+    src: url('iransans_medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iransans';
+    font-weight: 900;
+    src: url('iransans_bold.woff') format('woff');
+}

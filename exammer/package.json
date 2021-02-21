@@ -1,0 +1,25 @@
+{
+  "name": "pfms",
+  "version": "1.0.0",
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "fs-extra": "^7.0.1",
+    "path": "^0.12.7",
+    "chokidar": "^2.1.0",
+    "fast-glob": "^2.2.6",
+    "minimatch": "^3.0.4",
+    "is-valid-path": "^0.1.1",
+    "gulp": "^4.0.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
+    "node-sass": "^4.11.0",
+    "node-sass-json-importer": "^4.1.0",
+    "nunjucks": "^3.1.7",
+    "rev-hash": "^2.0.0",
+    "gulp-minifier": "^1.2.2",
+    "package.json": "^2.0.1"
+  }
+}

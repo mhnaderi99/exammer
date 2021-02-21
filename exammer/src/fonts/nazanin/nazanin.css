@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'nazanin';
+    font-weight: 200;
+    src: url('nazanin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'nazanin';
+    font-weight: 900;
+    src: url('nazanin_bold.woff') format('woff');
+}

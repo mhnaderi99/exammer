@@ -1,0 +1,13 @@
+<!doctype html> <html> <head> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <script src="resources/js/functions-dd2b5da1a0.min.js"></script> <script> id = localStorage.getItem('exammerID') || getUrlParameters('id') || '';
+
+        if(!localStorage.getItem('exammerID')) {
+            localStorage.setItem('exammerID', id);
+        }
+
+        if(getUrlParameters('id')) {
+            window.history.pushState('', '', 'home.html');
+        }
+
+        if(localStorage.getItem('exammerID') === '') {
+            //Get angry
+        } </script> <script src="resources/js/home-d01ae2203f.min.js"></script> <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> <link rel="stylesheet" href="resources/fonts/fonts-ce240e57e5.min.css" type="text/css"> <link rel="stylesheet" href="resources/css/home-66c3c34ad2.min.css" type="text/css"> <title>آزمون مفاهیم جزء 28 قرآن کریم</title> </head> <body> <div id="page-loading" class="loading-container"> <div class="spinner"></div> </div> <header> <nav> <div class="nav-wrapper"> <a href="#" class="brand-logo center">Logo</a> </div> </nav> </header> <main> <div class="row description-row"> <div class="col s12 m12"> <div id="ex" class="card"> <div class="card-content white-text"> <span class="card-title">توضیحات </span> <p>توضیحات آزمون</p> </div> </div> </div> </div> <div class="row timer-row"> <div id="timerRow" class="col s12 m12"> <div id="timerCard" class="card"> <div class="card-content white-text"> <span id="timerCaption" class="card-title">مانده تا شروع آزمون: </span> <p id="timer"></p> </div> <div id="progress-bar-container" class="not-started"> <div id="progress-bar"></div> <span id="progress-bar-label"></span> </div> </div> </div> </div> <div id="questionCard" class="row"> </div> </main> <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"> </script> </body> </html>

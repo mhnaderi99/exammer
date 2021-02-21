@@ -1,0 +1,10 @@
+__pycache__/
+.*/
+dist/dashboard/public/*
+dist/logs/*
+node_modules/*
+src/rev-manifest.json
+*.sqlite3
+*.pyc
+*.log
+*.sock
